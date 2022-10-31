@@ -37,16 +37,14 @@
 }
 
 nav {
-  padding: 10px 0;
+  padding: 10px 150px;
   display: flex;
   justify-content: space-between;
-  max-width: 1000px;
   margin: 0 auto;
 }
 
 .social-links {
   position: fixed;
-  background: var(--ck-light);
   right: 0;
   top: 50%;
   display: flex;
@@ -133,7 +131,7 @@ footer .email-link:hover {
 }
 
 footer .social-links a {
-  margin: 0 20px;
+  margin: 0 20px 20px 0;
   color: white;
   background: var(--ck-accent-light);
   padding: 10px 15px;
