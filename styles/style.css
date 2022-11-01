@@ -46,7 +46,7 @@ nav {
 .social-links {
   position: fixed;
   right: 0;
-  top: 50%;
+  top: 40%;
   display: flex;
   flex-direction: column;
 }
@@ -88,7 +88,7 @@ ul {
 nav li {
   display: inline;
   list-style: none;
-  line-height: 35px;
+  line-height: 60px;
   margin-left: 15px;
 }
 
@@ -172,7 +172,7 @@ img.about {
 }
 
 #logo {
-  max-width: 60px;
+  max-width: 250px;
   margin: 0 5px 0 0;
 }
 
