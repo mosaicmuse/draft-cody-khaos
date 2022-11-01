@@ -17,6 +17,7 @@
 .hero {
   text-align: center;
   width: 100%;
+  height: auto;
 }
 
 .wrapper {
@@ -176,19 +177,29 @@ img.about {
 }
 
 video {
-  object-fit: cover;
+  width: 1520px;
+  object-position: 50% 50%;
 }
 
 /*---------media queries---------*/
 
 /* sm */
 @media (max-width: 576px) {
+  video {
+    width: 576px;
+  }
 }
 
 /* md */
 @media (max-width: 768px) {
+  video {
+    width: 768px;
+  }
 }
 
 /* lg */
 @media (max-width: 992px) {
+  video {
+    width: 992px;
+  }
 }
