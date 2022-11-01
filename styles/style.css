@@ -57,6 +57,7 @@ h1 {
   font-weight: 800;
   font-size: 70px;
   text-align: center;
+  padding: 40px 0;
 }
 
 .interior h1 {
@@ -88,7 +89,7 @@ ul {
 nav li {
   display: inline;
   list-style: none;
-  line-height: 60px;
+  line-height: 35px;
   margin-left: 15px;
 }
 
