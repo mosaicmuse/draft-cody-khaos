@@ -17,7 +17,6 @@
 .hero {
   text-align: center;
   width: 100%;
-  overflow: hidden;
 }
 
 .wrapper {
@@ -177,7 +176,7 @@ img.about {
 }
 
 video {
-  height: 500px;
+  object-fit: cover;
 }
 
 /*---------media queries---------*/
