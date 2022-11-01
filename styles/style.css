@@ -176,6 +176,10 @@ img.about {
   margin: 0 5px 0 0;
 }
 
+video {
+  height: 500px;
+}
+
 /*---------media queries---------*/
 
 /* sm */
