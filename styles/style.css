@@ -203,4 +203,7 @@ video {
   video {
     width: 992px;
   }
+  nav {
+    padding: 10px 70px;
+  }
 }
