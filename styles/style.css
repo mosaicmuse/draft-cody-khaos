@@ -48,6 +48,18 @@ nav {
   margin: 0 auto;
 }
 
+.blocks {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0;
+}
+
+.block {
+  width: 200px;
+  background: var(--ck-light);
+  padding: 20px;
+}
+
 .social-links {
   position: fixed;
   right: 0;
@@ -136,7 +148,7 @@ footer .email-link:hover {
   color: var(--ck-accent-dark);
 }
 
-footer .social-links a {
+.social-links a {
   margin: 0 20px 20px 0;
   color: white;
   background: var(--ck-accent-light);
