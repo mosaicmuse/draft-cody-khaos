@@ -20,6 +20,11 @@
   height: auto;
 }
 
+.hero-interior {
+  width: 100%;
+  height: auto;
+}
+
 .wrapper {
   max-width: 1000px;
   margin: 0 auto;
@@ -160,7 +165,7 @@ footer .social-links a:hover {
   font-weight: bold;
 }
 
-/*---------images---------*/
+/*---------multimedia---------*/
 
 img {
   width: 100%;
@@ -178,7 +183,7 @@ img.about {
 }
 
 video {
-  width: 1750px;
+  width: 1550px;
   object-position: 50% 50%;
 }
 
