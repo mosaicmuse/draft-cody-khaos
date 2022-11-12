@@ -25,6 +25,10 @@
   height: auto;
 }
 
+.container {
+  margin: 20px auto;
+}
+
 .wrapper {
   max-width: 1000px;
   margin: 0 auto;
@@ -55,8 +59,8 @@ nav {
 }
 
 .block {
-  width: 200px;
-  background: var(--ck-light);
+  width: 300px;
+  background: var(--ck-main);
   padding: 20px;
 }
 
@@ -66,6 +70,11 @@ nav {
   top: 40%;
   display: flex;
   flex-direction: column;
+}
+
+footer {
+  padding: 10px 150px;
+  border-top: 1px solid var(--ck-dark);
 }
 
 /*---------text---------*/
@@ -103,11 +112,28 @@ ul {
   margin: 0;
 }
 
+footer ul {
+  display: flex;
+  justify-content: center;
+}
+
 nav li {
   display: inline;
   list-style: none;
   line-height: 35px;
   margin-left: 15px;
+}
+
+footer li {
+  list-style: none;
+  line-height: 35px;
+  margin-right: 50px;
+  font-size: 0.85em;
+  color: var(--ck-dark);
+}
+
+footer li:last-of-type {
+  margin-right: 0;
 }
 
 nav li.active a {
@@ -131,21 +157,6 @@ nav ul a:hover {
   font-weight: bold;
   font-size: 24px;
   letter-spacing: 0.5px;
-}
-
-footer {
-  margin: 40px 0;
-}
-
-footer .email-link {
-  text-decoration: none;
-  color: black;
-  font-size: 24px;
-  text-align: center;
-}
-
-footer .email-link:hover {
-  color: var(--ck-accent-dark);
 }
 
 .social-links a {
