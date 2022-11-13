@@ -18,6 +18,12 @@ body {
   background: rgba(206, 185, 150, 0.4);
 }
 
+.top-menu {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
 .hero {
   text-align: center;
   width: 100%;
@@ -64,7 +70,7 @@ nav {
 
 .block {
   width: 300px;
-  background: var(--ck-main);
+  background: var(--ck-dark);
   padding: 20px;
   text-decoration: none;
   color: white;
@@ -102,6 +108,7 @@ nav {
 
 .main {
   flex: 3;
+  padding-right: 20px;
 }
 
 .aside {
@@ -143,7 +150,7 @@ h1 {
 
 h2 {
   font-weight: 700;
-  color: var(--ck-dark);
+  color: black;
 }
 
 h3 {
