@@ -41,7 +41,7 @@ body {
 
 .wrapper {
   max-width: 1000px;
-  margin: 0 auto;
+  margin: 20px auto 50px auto;
 }
 
 .highlight {
@@ -108,12 +108,15 @@ nav {
 
 .main {
   flex: 3;
-  padding-right: 20px;
+  padding-right: 40px;
 }
 
 .aside {
   flex: 1;
   background: var(--ck-dark);
+  padding: 20px;
+  color: white;
+  border-radius: 5px;
 }
 
 .social-links {
