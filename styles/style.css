@@ -77,6 +77,14 @@ nav {
   color: white;
 }
 
+.img-left {
+  display: flex;
+}
+
+.img-right {
+  display: flex;
+}
+
 .social-links {
   position: fixed;
   right: 0;
@@ -105,7 +113,8 @@ h1 {
 }
 
 .interior h1 {
-  margin: 100px auto;
+  font-size: 50px;
+  text-align: left;
 }
 
 h2 {
@@ -169,6 +178,10 @@ nav ul a:hover {
   color: white;
 }
 
+.img-left p {
+  padding-left: 20px;
+}
+
 .social-links a {
   margin: 0 20px 20px 0;
   color: white;
@@ -221,14 +234,9 @@ footer .social-links a:hover {
 
 /*---------multimedia---------*/
 
-img {
+.hero-interior img {
   width: 100%;
   margin: 0 auto;
-}
-
-img.about {
-  margin-bottom: 40px;
-  border-radius: 10px;
 }
 
 #logo {
