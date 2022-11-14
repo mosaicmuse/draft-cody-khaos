@@ -302,9 +302,9 @@ video {
   padding-bottom: 20px;
 }
 
-/* .gallery img {
-  border: 1px solid black;
-} */
+.masonry img:hover {
+  opacity: 0.8;
+}
 
 /*---------media queries---------*/
 
@@ -351,7 +351,7 @@ video {
 }
 .item {
   display: inline-block;
-  background: white;
+  background: var(--ck-accent-dark);
   padding: 0;
   margin: 0 0 1.5em;
   width: 100%;
