@@ -16,6 +16,36 @@ body {
   position: fixed;
   width: 100%;
   z-index: 1;
+  background: var(--ck-dark);
+  overflow: hidden;
+}
+
+#mobileMenu {
+  display: none;
+  position: relative;
+}
+
+#mobileMenu ul {
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 60px;
+  right: 0px;
+  width: 200px;
+}
+
+#mobileMenu a {
+  color: white;
+  padding: 12px 20px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+#mobileMenu li {
+  display: block;
+  background: var(--ck-light);
+  width: 200px;
 }
 
 .hero {
@@ -43,10 +73,6 @@ body {
   padding: 30px 20px;
   border-radius: 10px;
   margin-bottom: 40px;
-}
-
-.top-menu {
-  background: var(--ck-dark);
 }
 
 nav {
@@ -278,6 +304,14 @@ footer .social-links a:hover {
 
 /*---------multimedia---------*/
 
+#hamburger {
+  display: none;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 10px;
+  width: 40px;
+}
+
 .hero-interior img {
   width: 100%;
   margin: 0 auto;
@@ -317,9 +351,42 @@ video {
 
 /* md */
 @media (max-width: 768px) {
+  .container {
+    width: 600px;
+    padding: 0;
+  }
+
+  .blocks {
+    flex-wrap: wrap;
+  }
+  .block {
+    width: 100%;
+  }
+  /* .wrapper {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  } */
+
+  /* h1 {
+    width: 100%;
+  }
+  h2 {
+    width: 100%;
+  } */
   video {
     width: 768px;
   }
+  #menu {
+    display: none;
+  }
+  #hamburger {
+    display: block;
+  }
+  /* .block {
+    width: 100px;
+    padding: 20px;
+  } */
 }
 
 /* lg */
@@ -329,6 +396,11 @@ video {
   }
   nav {
     padding: 10px 70px;
+  }
+
+  .block {
+    width: 200px;
+    padding: 20px;
   }
 }
 
