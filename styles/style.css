@@ -348,37 +348,6 @@ video {
 
 /*---------media queries---------*/
 
-/* sm */
-@media (max-width: 576px) {
-  video {
-    width: 576px;
-  }
-}
-
-/* md */
-@media (max-width: 768px) {
-  .container {
-    width: 600px;
-    padding: 0;
-  }
-
-  .blocks {
-    flex-wrap: wrap;
-  }
-  .block {
-    width: 100%;
-  }
-  video {
-    width: 768px;
-  }
-  #menu {
-    display: none;
-  }
-  #hamburger {
-    display: block;
-  }
-}
-
 /* lg */
 @media (max-width: 992px) {
   video {
@@ -421,5 +390,62 @@ video {
   }
   footer li {
     margin-right: 0;
+  }
+}
+
+/* md */
+@media (max-width: 768px) {
+  .blocks {
+    flex-wrap: wrap;
+  }
+  .block {
+    width: 100%;
+  }
+  nav {
+    padding: 10px 50px;
+  }
+  video {
+    width: 768px;
+  }
+  .container {
+    padding: 0 50px;
+  }
+  .block {
+    margin-bottom: 20px;
+    margin-right: 0;
+    font-size: 0.95em;
+    background: var(--ck-main);
+  }
+  .block:last-of-type {
+    margin-bottom: 0;
+  }
+  h1 {
+    font-size: 50px;
+    padding-top: 0;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  footer {
+    padding: 10px 70px;
+  }
+  footer ul {
+    justify-content: space-between;
+  }
+  footer li {
+    margin-right: 0;
+  }
+  #menu {
+    display: none;
+  }
+  #hamburger {
+    display: block;
+  }
+}
+
+/* sm */
+@media (max-width: 576px) {
+  video {
+    width: 576px;
   }
 }
