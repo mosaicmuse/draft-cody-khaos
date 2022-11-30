@@ -179,6 +179,18 @@ p {
   font-weight: 100;
 }
 
+li {
+  font-size: 1.1em;
+}
+
+a {
+  color: var(--ck-dark);
+}
+
+a:visited {
+  color: var(--ck-main);
+}
+
 a:hover {
   color: var(--ck-main);
 }
@@ -215,6 +227,10 @@ nav ul a {
   text-decoration: none;
   color: white;
   font-weight: 500;
+}
+
+nav a:visited {
+  color: white;
 }
 
 nav ul a:hover {
@@ -268,10 +284,6 @@ footer li {
 
 footer li:last-of-type {
   margin-right: 0;
-}
-
-footer a {
-  color: var(--ck-dark);
 }
 
 /*---------button---------*/
