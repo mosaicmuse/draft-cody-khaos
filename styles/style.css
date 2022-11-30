@@ -154,7 +154,8 @@ h2 {
 }
 
 h3 {
-  margin-top: 45px;
+  margin-top: 35px;
+  margin-bottom: 20px;
   color: var(--ck-accent-light);
   font-family: "Bungee", cursive;
   font-size: 36px;
