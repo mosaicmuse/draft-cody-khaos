@@ -10,6 +10,7 @@
 
 body {
   background: rgba(206, 185, 150, 0.4);
+  font-family: "Bahnschrift Light", "Bahnschrift", sans-serif;
 }
 
 .top-menu {
@@ -145,6 +146,7 @@ h1 {
   text-align: center;
   padding: 20px 0;
   color: var(--ck-accent-dark);
+  font-family: "Bungee", cursive;
 }
 
 .interior h1 {
@@ -153,8 +155,9 @@ h1 {
 }
 
 h2 {
-  font-weight: 700;
+  font-weight: 500;
   color: black;
+  font-family: "Bahnschrift", sans-serif;
 }
 
 h3 {
@@ -165,22 +168,21 @@ h3 {
 h4 {
   text-align: center;
   color: white;
+  font-family: "Bungee", cursive;
+  margin-bottom: 10px;
 }
 
 p {
   line-height: 1.3;
   color: black;
   font-size: 1.1em;
+  font-weight: 100;
 }
 
 nav ul,
 footer ul {
   padding: 0;
   margin: 0;
-}
-
-li {
-  font-size: 1.1em;
 }
 
 .logo a {
@@ -192,25 +194,27 @@ li {
 }
 
 nav li {
-  display: inline;
+  display: inline-block;
   list-style: none;
   line-height: 35px;
   margin-left: 15px;
+  font-size: 1.1em;
 }
 
 nav li.active a {
   color: var(--ck-main);
+  font-weight: bold;
 }
 
 nav ul a {
   text-decoration: none;
   color: white;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 nav ul a:hover {
-  color: var(--ck-accent-dark);
-  transition: all 100ms ease-in-out;
+  color: white;
+  font-weight: bold;
 }
 
 .block p {
@@ -283,7 +287,7 @@ video {
 
 .block i {
   font-size: 40px;
-  margin: 0 auto;
+  margin: 0 auto 5px auto;
 }
 
 .image img {
@@ -414,7 +418,10 @@ video {
     margin-bottom: 20px;
     margin-right: 0;
     font-size: 0.95em;
-    background: var(--ck-main);
+    background: var(--ck-accent-dark);
+  }
+  .block:hover {
+    background: var(--ck-dark);
   }
   .block:last-of-type {
     margin-bottom: 0;
