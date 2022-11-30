@@ -19,17 +19,20 @@ body {
   z-index: 1;
   background: var(--ck-dark);
   overflow: hidden;
+  top: 0;
 }
 
 .hero {
   text-align: center;
   width: 100%;
   height: auto;
+  margin-top: 65px;
 }
 
 .hero-interior {
   width: 100%;
   height: auto;
+  margin-top: 65px;
 }
 
 .container {
@@ -83,7 +86,7 @@ nav {
 
 .img-right {
   display: flex;
-  margin-top: 30px;
+
   justify-content: space-between;
 }
 
@@ -120,15 +123,6 @@ nav {
   flex-direction: column;
 }
 
-.social-links a {
-  margin: 0 10px 20px 0;
-  color: white;
-  background: var(--ck-accent-light);
-  padding: 10px 15px;
-  font-size: 18px;
-  border-radius: 50%;
-}
-
 .icon {
   margin: 0 auto;
 }
@@ -151,7 +145,6 @@ h1 {
 
 .interior h1 {
   font-size: 50px;
-  text-align: left;
 }
 
 h2 {
@@ -161,8 +154,10 @@ h2 {
 }
 
 h3 {
-  margin-top: 15px;
+  margin-top: 45px;
   color: var(--ck-accent-light);
+  font-family: "Bungee", cursive;
+  font-size: 36px;
 }
 
 h4 {
@@ -170,6 +165,10 @@ h4 {
   color: white;
   font-family: "Bungee", cursive;
   margin-bottom: 10px;
+}
+
+h5 {
+  font-weight: bold;
 }
 
 p {
@@ -195,12 +194,13 @@ footer ul {
   font-weight: bold;
   font-size: 24px;
   letter-spacing: 0.5px;
+  font-family: "Bungee", cursive;
 }
 
 nav li {
   display: inline-block;
   list-style: none;
-  line-height: 35px;
+  line-height: 45px;
   margin-left: 15px;
   font-size: 1.1em;
 }
@@ -229,6 +229,28 @@ nav ul a:hover {
 
 .img-left p {
   padding-left: 40px;
+}
+
+.social-links a {
+  margin: 0 10px 20px 0;
+  color: white;
+  background: var(--ck-accent-light);
+  padding: 15px 15px;
+  font-size: 18px;
+  border-radius: 50%;
+  /* width: 3em;
+  height: 3em; */
+  text-decoration: none;
+}
+
+.social-links div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#ig i {
+  font-size: 20px;
 }
 
 footer ul {
@@ -279,7 +301,7 @@ footer a {
 }
 
 #logo {
-  max-width: 250px;
+  max-width: 200px;
   margin: 0 5px 0 0;
 }
 
