@@ -28,7 +28,7 @@
       integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
       crossorigin="anonymous"
     ></script>
-
+    <script src="scripts/script.js"></script>
     <title>Contact | Cody Khaos: Hip Hop Choreographer and Coach</title>
   </head>
   <body class="interior">
@@ -40,7 +40,13 @@
             <img id="logo" src="src/ck-logo.png" alt="Cody Khaos" />
           </a>
         </div>
-        <ul>
+        <a href="#" onclick="toggleMenu()"
+          ><img
+            id="hamburger"
+            src="src/hamburger.png"
+            alt="hamburger menu icon"
+        /></a>
+        <ul id="menu">
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="work.html">Work</a></li>
@@ -48,6 +54,15 @@
           <li class="active"><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
+    </div>
+    <div id="mobileMenu">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="work.html">Work</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li class="active"><a href="contact.html">Contact</a></li>
+      </ul>
     </div>
     <!--END HEADER-->
     <!--START HERO-->

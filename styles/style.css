@@ -356,7 +356,7 @@ video {
   display: flex;
   flex-wrap: wrap;
   position: fixed;
-  top: 65px;
+  top: 65.5px;
   right: 0px;
   width: 200px;
   z-index: 3;
