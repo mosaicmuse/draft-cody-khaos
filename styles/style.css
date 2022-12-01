@@ -349,13 +349,14 @@ video {
 #mobileMenu {
   display: none;
   position: relative;
+  z-index: 500;
 }
 
 #mobileMenu ul {
   display: flex;
   flex-wrap: wrap;
-  position: absolute;
-  top: 60px;
+  position: fixed;
+  top: 65px;
   right: 0px;
   width: 200px;
   z-index: 3;
@@ -439,9 +440,7 @@ video {
 @media (max-width: 768px) {
   .blocks {
     flex-wrap: wrap;
-  }
-  .block {
-    width: 100%;
+    margin-bottom: 20px;
   }
   nav {
     padding: 10px 50px;
@@ -453,13 +452,10 @@ video {
     padding: 0 50px;
   }
   .block {
+    width: 100%;
     margin-bottom: 20px;
     margin-right: 0;
     font-size: 0.95em;
-    background: var(--ck-accent-dark);
-  }
-  .block:hover {
-    background: var(--ck-dark);
   }
   .block:last-of-type {
     margin-bottom: 0;
@@ -471,14 +467,22 @@ video {
   h2 {
     font-size: 24px;
   }
+  .social-links {
+    position: static;
+    width: 100%;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: center;
+  }
   footer {
     padding: 10px 70px;
   }
   footer ul {
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
   }
   footer li {
-    margin-right: 0;
+    margin: 0 10px 10px 10px;
   }
   #menu {
     display: none;
