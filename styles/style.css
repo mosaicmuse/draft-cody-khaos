@@ -187,6 +187,10 @@ li {
   font-size: 1.1em;
 }
 
+li li {
+  font-size: 1em;
+}
+
 a {
   color: var(--ck-dark);
 }
@@ -561,5 +565,11 @@ video {
 @media (max-width: 576px) {
   video {
     width: 576px;
+  }
+  h1 {
+    padding-bottom: 0;
+  }
+  .blocks {
+    margin-top: 30px;
   }
 }
