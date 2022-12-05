@@ -86,7 +86,6 @@ nav {
 
 .img-right {
   display: flex;
-
   justify-content: space-between;
 }
 
@@ -329,11 +328,17 @@ video {
 }
 
 .image img {
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .masonry img:hover {
   opacity: 0.8;
+}
+
+.img-left img,
+.img-right img {
+  width: 200px;
+  box-shadow: 6px 6px var(--ck-accent-dark);
 }
 
 /*---------hamburger menu---------*/
@@ -489,6 +494,32 @@ video {
   }
   #hamburger {
     display: block;
+  }
+  .img-right div.image {
+    order: 1;
+    width: 100%;
+  }
+  .img-right div.text {
+    width: 100%;
+    order: 5;
+    padding-right: 0;
+  }
+  .img-right {
+    flex-wrap: wrap;
+  }
+  .img-right img {
+    margin-right: 40px;
+  }
+  #about-top {
+    display: block;
+  }
+  #about-top img {
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 20px;
+  }
+  #about-top p {
+    padding-left: 0;
   }
 }
 
