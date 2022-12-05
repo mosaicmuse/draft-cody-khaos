@@ -331,13 +331,17 @@ video {
   margin-bottom: 20px;
 }
 
+.masonry img {
+  max-width: 250px;
+}
+
 .masonry img:hover {
   opacity: 0.8;
 }
 
 .img-left img,
 .img-right img {
-  width: 200px;
+  max-width: 200px;
   box-shadow: 6px 6px var(--ck-accent-dark);
 }
 
@@ -520,6 +524,13 @@ video {
   }
   #about-top p {
     padding-left: 0;
+  }
+}
+
+@media (max-width: 596px) {
+  .img-left img,
+  .img-right img {
+    max-width: 151px;
   }
 }
 
